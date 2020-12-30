@@ -1,0 +1,30 @@
+#!/bin/sh
+
+MAILINGLIST=./english-names
+
+for n in `cat $MAILINGLIST` ; do
+	eval `echo $n | awk -F':' '{ print $1 " " $2}' |\
+	sed 's/^\(.*\) \(.*\)$/NAME=\1 ADDRESS=\2/'`
+
+(echo "$NAME:"
+ echo ""
+ echo "Hello from Edmonton:"
+ echo ""
+ echo "https://jnamaral.github.io/end-of-year-letter/2020/index.html"
+ echo ""
+ echo "Wishing that you stay safe and make the most of these quieter times."
+ echo ""
+ echo "		Cheers,"
+ echo ""
+ echo "				Nelson, Scott & Daniel"
+ echo ""
+ echo "           /     "
+ echo "    \     /  /   Jose Nelson Amaral - jamaral@ualberta.ca"
+ echo "     )   /  (    Professor"
+ echo "    /   /    \   Dept. of Computing Science - University of Alberta"
+ echo "   (   /      )  Edmonton, Alberta, Canada, T6G 2E8"
+ echo "    \ O      /   Fax: (780)492-1071"
+ echo "     \      /    http://www.cs.ualberta.ca/~amaral"
+ echo "       ---- "
+ echo "") | Mail -s "End-of-Year Blog" $ADDRESS
+ done
