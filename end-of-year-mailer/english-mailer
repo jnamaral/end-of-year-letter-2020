@@ -8,7 +8,7 @@ for n in `cat $MAILINGLIST` ; do
 
 (echo "$NAME:"
  echo ""
- echo "Hello from Edmonton:"
+ echo "Hello from Edmonton. Here is our end-of-year blog:"
  echo ""
  echo "https://jnamaral.github.io/end-of-year-letter-2020/2020/index.html"
  echo ""
