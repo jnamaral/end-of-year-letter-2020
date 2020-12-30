@@ -10,7 +10,7 @@ for n in `cat $MAILINGLIST` ; do
  echo ""
  echo "Oi de Oklahoma onde eu acabei de terminar de escrever o nosso blog anual:"
  echo "" 
- echo "https://jnamaral.github.io/end-of-year-letter/2019/fim-de-2019.html"
+ echo "https://jnamaral.github.io/end-of-year-letter-2020/2020/fim-de-2020.html"
  echo ""
  echo "Tudo de bom para 2020!"
  echo ""
