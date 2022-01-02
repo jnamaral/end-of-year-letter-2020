@@ -8,11 +8,11 @@ for n in `cat $MAILINGLIST` ; do
 
 (echo "$NAME:"
  echo ""
- echo "Hello from Edmonton. Here is our end-of-year blog:"
+ echo "Here you have our end-of-2021 letter:"
  echo ""
  echo "https://jnamaral.github.io/end-of-year-letter-2020/2020/index.html"
  echo ""
- echo "Wishing that you stay safe and make the most of these quieter times."
+ echo "We hope that your year is starting well."
  echo ""
  echo "		Cheers,"
  echo ""
@@ -26,5 +26,5 @@ for n in `cat $MAILINGLIST` ; do
  echo "    \ O      /   Fax: (780)492-1071"
  echo "     \      /    http://www.cs.ualberta.ca/~amaral"
  echo "       ---- "
- echo "") | Mail -s "End-of-Year Blog" $ADDRESS
+ echo "") | Mail -s "End-of-2021 Blog" $ADDRESS
  done
