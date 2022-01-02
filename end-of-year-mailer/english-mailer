@@ -10,7 +10,7 @@ for n in `cat $MAILINGLIST` ; do
  echo ""
  echo "Here you have our end-of-2021 letter:"
  echo ""
- echo "https://jnamaral.github.io/end-of-year-letter-2020/2020/index.html"
+ echo "https://jnamaral.github.io/end-of-year-letter-2020/2021/index.html"
  echo ""
  echo "We hope that your year is starting well."
  echo ""
