@@ -26,6 +26,6 @@ for n in `cat $MAILINGLIST` ; do
  echo "    \ O      /   Fax: (780)492-1071"
  echo "     \      /    http://www.cs.ualberta.ca/~amaral"
  echo "       ---- "
- echo "") | Mail -s "Blog de final de ano" $ADDRESS
+ echo "") | Mail -r "jamaral@ualberta.ca" -s "Blog de final de ano" $ADDRESS
 echo "mailed " $NAME:$ADDRESS
  done
