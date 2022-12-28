@@ -8,11 +8,11 @@ for n in `cat $MAILINGLIST` ; do
 
 (echo "$NAME:"
  echo ""
- echo "Oi de Edmonton. Aqui esta o nosso blog de final de ano:"
+ echo "Acabei de escrever o nosso blog de final de ano para 2022:"
  echo "" 
- echo "https://jnamaral.github.io/end-of-year-letter-2020/2021/fim-de-2021.html"
+ echo "https://jnamaral.github.io/end-of-year-letter-2020/2022/fim-de-2022.html"
  echo ""
- echo "Esperando que 2022 esteja comecando bem."
+ echo "Tudo de bom no novo ano."
  echo ""
  echo "		Cheers,"
  echo ""
@@ -26,6 +26,6 @@ for n in `cat $MAILINGLIST` ; do
  echo "    \ O      /   Fax: (780)492-1071"
  echo "     \      /    http://www.cs.ualberta.ca/~amaral"
  echo "       ---- "
- echo "") | Mail -r "jamaral@ualberta.ca" -s "Blog de final de ano" $ADDRESS
+ echo "") | Mail -r "jamaral@ualberta.ca" -s "Blog de final de 2022" $ADDRESS
 echo "mailed " $NAME:$ADDRESS
  done
